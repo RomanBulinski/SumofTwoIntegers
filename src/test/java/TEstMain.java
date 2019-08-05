@@ -21,8 +21,9 @@ public class TEstMain {
     @Test
     public void checkMixtureValues()
     {
+        assertEquals(-60, Main.add(-90,30));
         assertEquals(  0, Main.add(-13,13));
         assertEquals( -9, Main.add(-27,18));
-        assertEquals(-60, Main.add(-90,30));
+
     }
 }
